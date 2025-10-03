@@ -8,7 +8,7 @@
 #include"RandomGenerator.h"
 using namespace std;
 
-// Helper functions to compute mean of a vector
+// Helper function to compute mean of a vector
 float compute_mean(const vector<float>& data) {
     float sum = 0.0f;
     for (float val : data) {
